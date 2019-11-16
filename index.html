@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>try clicking this button </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1>you can't catch/click this button... it runs away from you</h1>
+    <div class="box" id="box">
+        <div class="row" id="up" onmousemove="fun(event)"></div>
+        <div class="row" id="middle">
+            <div id="middle1" class="middlebox"  onmousemove="fun1(event)"></div>
+            <div id="middle2"><button id="btn" onclick="fun5(event)"  onmousemove="fun1(event)">try to catch me</button></div>
+            <div id="middle3" class="middlebox" onmousemove="fun2(event)"></div>
+        </div>
+        <div class="row" id="down" onmousemove="fun3(event)"></div>
+    </div>
+</body>
+</html>
